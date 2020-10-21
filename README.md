@@ -10,11 +10,22 @@ now use the mask to redraw the original image pixels on the blurred image.
 
 
 there are some failure points as well, it is unable to detect objects that have color matching with the background image so it creates a mess over there. 
-
 | Class | Instance Variable | Datatype  | Mutable |
 | ------------- |:-------------:| :-----:| :-----:|
-| mobile | first_name | string | No |
-| mobile | last_name| string | No |
+| mobile | fname | string | No |
+| mobile | lname| string | No |
 | mobile | phone_number | list | Yes |
+| mobile | messages | list | Yes |
+| mobile | contacts | list | Yes |
+| mobile | max_contacts | list | Yes |
+| mobile | battery_life | int | No |
+| mobile | singnal_strength | int | No |
+| mobile | network_connection | boolen | No |
+| mobile | phone_status | string | No |
+| contact | fname | string | No |
+| contact | lname| string | No |
+| contact | phone_number| int | No |
+| contact | MAXIMUM_CHAT_HISTORY| int | No |
+| contact | chatHistory | list | Yes |
 
 
