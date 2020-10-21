@@ -14,7 +14,7 @@ there are some failure points as well, it is unable to detect objects that have 
 | ------------- |:-------------:| :-----:| :-----:|
 | mobile | fname | string | No |
 | mobile | lname| string | No |
-| mobile | phone_number | list | Yes |
+| mobile | phone_number | string | No |
 | mobile | messages | list | Yes |
 | mobile | contacts | list | Yes |
 | mobile | max_contacts | list | Yes |
@@ -24,8 +24,7 @@ there are some failure points as well, it is unable to detect objects that have 
 | mobile | phone_status | string | No |
 | contact | fname | string | No |
 | contact | lname| string | No |
-| contact | phone_number| int | No |
+| contact | phone_number| string | No |
 | contact | MAXIMUM_CHAT_HISTORY| int | No |
 | contact | chatHistory | list | Yes |
-
 
