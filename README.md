@@ -10,3 +10,9 @@ now use the mask to redraw the original image pixels on the blurred image.
 
 
 there are some failure points as well, it is unable to detect objects that have color matching with the background image so it creates a mess over there. 
+
+| Class | Instance Variable | Datatype  | Mutable |
+| ------------- |:-------------:| :-----:| :-----:|
+| mobile | first_name | string | No |
+| mobile | phone_number | list | Yes |
+
