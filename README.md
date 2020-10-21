@@ -15,7 +15,6 @@ there are some failure points as well, it is unable to detect objects that have 
 | ------------- |:-------------:| :-----:| :-----:|
 | mobile | first_name | string | No |
 | mobile | last_name| string | No |
-
 | mobile | phone_number | list | Yes |
 
 
